@@ -1,12 +1,21 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
 
-/.vs/Bank/FileContentIndex
-/Domain/bin/Debug/net6.0
-/.vs/Bank/v17/.suo
-/Test/bin/Debug/net6.0/CoverletSourceRootsMapping
-/Test/obj/Debug/net6.0/Test.csproj.AssemblyReference.cache
-/Test/obj/project.assets.json
-/Test/obj/project.nuget.cache
-/Test/obj/Test.csproj.nuget.dgspec.json
+# Test Results
+[Rr]esult*/
+
+# Visual Studo 2015 cache/options directory
+.vs/
+*.user
+/containers/AllProjects.sln
+*.pubxml
+/Test/bin/Debug/net6.0/Domain.dll
