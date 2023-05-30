@@ -1,0 +1,21 @@
+﻿# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Test Results
+[Rr]esult*/
+
+# Visual Studo 2015 cache/options directory
+.vs/
+*.user
+/containers/AllProjects.sln
+*.pubxml
+/Test/bin/Debug/net6.0/Domain.dll
